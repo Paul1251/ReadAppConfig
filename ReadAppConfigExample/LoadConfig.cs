@@ -3,7 +3,7 @@ using System;
 
 namespace ReadAppConfigExample
 {
-    class LoadConfig
+    public sealed class LoadConfig
     {
         private static LoadConfig instance;
         private static object syncRoot = new Object();
